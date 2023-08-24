@@ -1,0 +1,77 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #8c52ff;
+}
+section{
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 75px;
+    box-shadow: 0px 10px 16px 36px rgba(0,0,0,0.1);
+}
+.title{
+    padding-top: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 150px;
+    margin: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.box{
+    font-family:'Times New Roman', Times, serif;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0,0,0,1px #33333333;
+    border: 2px solid black;
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 20px;
+}
+.box:hover{
+    background-color: hwb(41 66% 22%);
+}
+button{
+    margin-bottom: 20px;
+    height:30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #8c52ff;
+    cursor: pointer;
+}
+button:hover{
+    transform: 0.25s;
+    background-color: #c1a2fe;   
+}
+.result{
+    margin-top: 10px;
+    position: relative;
+    margin-right: 100px;
+}
+.excitedgif{
+    width: 0px;
+    position: absolute;
+}
+.lose{
+    width:0px;
+    position: absolute;
+}
+.line{
+    background-color: black;
+    width: 150px;
+    position:absolute;
+    height: 2px;
+}
+
+@media media-type and (media-feature)
+{
+    .gamecontainer{
+        flex-wrap: wrap;
+    }
+}
